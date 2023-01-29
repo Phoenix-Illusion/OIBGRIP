@@ -19,35 +19,34 @@
         align-items: center;
     }
     .logo{
-        font-size: xx-large;
+        font-size: 300%;
         letter-spacing: normal;
     }
     .menu a{
         text-decoration: none;
         color: antiquewhite;
-        padding: 10px 20px;
-        font-size: medium;
+        margin: 10px 20px;
+        font-weight: 400;
+        font-family: Georgia, Times, 'Times New Roman', serif;
     }
-    .register a{
-        text-decoration: none;
+    .registers a{
         text-decoration: none;
         color: black;
         padding: 10px 20px;
         font-size: 20px;
         background: indianred;
+        border: 1px solid indianred;
+        border-radius: 50px;
     }
-    .menu a:before{
-        content: white;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 0%;
-        height: 100%;
-        border-bottom: indianred;
+    .registers button:hover{
+        color: white;
+        background: indianred;
+        border-bottom: 1px solid indianred;
+    }
+    .menu a:hover{
+        color: rgb(21, 126, 238);
         transition: 0.4s linear;
-    }
-    .menu a :hover:before{
-        width: 90%;
+        border-bottom: 1px solid black;
     }
     .h-txt{
         max-width: 650px;
@@ -78,7 +77,7 @@
 <header>
     <nav>
         <div class="logo">
-            Travelmania
+           <b>Travelmania</b> 
         </div>
         <div class="menu">
             <a href="#"> Home</a>
